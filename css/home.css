@@ -257,8 +257,10 @@ body {
 .header-nav {
     background-color: #fff;
     color: #272727;
-    position: relative;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .header-nav_list {
@@ -271,11 +273,13 @@ body {
     transform: translateZ(0);
     z-index: 400;
     background-color: #ffffff;
+    
 }
 
 .header-nav_list-menu-list {
     display: flex;
     list-style: none;
+    
 }
 
 .header-nav_list-menu-list a {
@@ -498,6 +502,7 @@ body {
     height: 25px;
     padding: 5px;
     margin-right: 10px;
+    outline: none;
 } 
 
 
